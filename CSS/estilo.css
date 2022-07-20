@@ -94,8 +94,44 @@ aside .lateral p{
 
 footer{
 	width: 70%;
+	clear: both;
 	background: #000;
 	color:  #fff;
 	padding: 15px 0;
 	text-align: center;
+}
+
+/*uso de mediaquueries*/
+@media screen and (max-width: 800px){
+	.main{
+		width: 100%;
+		font-size: 12px;
+		background: magenta;
+	}
+	aside{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.main{
+		width: 100%;
+		font-size: 12px;
+		background: green;
+	}
+	aside{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	body{
+		background: darkred;
+	}
 }
